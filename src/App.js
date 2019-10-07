@@ -7,9 +7,6 @@ import './App.css';
 class App extends Component {
   constructor(props) {
     super(props);
-    
-    const authToken = 'BlGDViJZovrpyq-kvjA3Re5QLR1a_4ot9fEhNbrZXa_G0yo_LK2GMm4x7a5tu8ZuUPOiBF7AUx6fsRaxw2YyQciZBQMt4PPxvN4ZIKN7EVNI32gbTo3k1rd0mGqVXXYx';
-    
     this.state = {
       restaurants: [],
       detailData: { isOpen: false, data: {}, }
