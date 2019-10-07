@@ -30,7 +30,7 @@ class Detail extends Component {
       : <p className='contact error'>Phone not available</p>;
       
     const twitter = contact && contact.twitter
-      ? <p className='contact'><a href={`https://twitter.com/@${contact.twitter}`} className='contact' target='_blank'>{`@${contact.twitter}`}</a></p>
+      ? <p className='contact'><a href={`https://twitter.com/@${contact.twitter}`} className='contact' target='_blank' rel="noopener noreferrer">{`@${contact.twitter}`}</a></p>
       : <p className='contact error'>Twitter handle not available</p>;
 
     return (
